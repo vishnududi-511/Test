@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --font-size-16: 16px;
+    --font-size-20: 20px;
+    --font-size-18: 18px;
+    --font-size-22: 22px;
+    --font-size-23: 23px;
+    --font-size-24: 24px;
+    --font-size-25: 25px;
+    --font-size-28: 28px;
+    --font-size-30: 30px;
+    --font-size-31: 31px;
+    --font-size-35: 35px;
+    --font-size-36: 36px;
+    --font-size-39: 39px;
+    --font-size-40: 40px;
+    --font-size-42: 42px;
+    --font-size-48: 48px;
+    --font-size-50: 50px;
+    --font-size-61: 61px;
+    --font-size-64: 64px;
+    --font-size-67: 67px;
+    --font-size-70: 70px;
+    --font-size-72: 72px;
+    --font-size-90: 90px;
+
+
+    --color-white: white;
+    --color-black: black;
+    --light-blue: #1BABFE;
+    --nav-bg-color: #0000001A;
+    --gradient: linear-gradient(90deg, #815CC8 0%, #1BABFE 100%);
+
+    --font-weight-xsm: 300;
+    --font-weight-sm: 400;
+    --font-weight-md: 500;
+    --font-weight-lg: 600;
+    --font-weight-xl: 700;
+    --font-weight-xxl: 800;
+    --font-weight-xxxl: 900;
+
+    --ff-poppins: "Poppins", sans-serif;
+    --ff-Josefin: "Josefin Sans", sans-serif;
+}
+
+#body {
+    background-color: var(--color-black);
+}
+
+.hero_section {
+    background-image: url(../images/png/header_bg_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    background-color: var(--nav-bg-color);
+    padding: 21px 0;
+}
+
+.nav_fonts {
+    font-family: var(--ff-Josefin);
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-sm);
+    line-height: 22px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    color: var(--color-white);
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+
+
+.discord_btn {
+    font-family: var(--ff-Josefin);
+    font-size: var(--font-size-24);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    text-align: left;
+    color: var(--color-white);
+    background: var(--gradient);
+    border-radius: 79px;
+    box-shadow: 0px 8px 30px 0px #1BABFE;
+    border: none;
+    padding: 14px 34px;
+}
+
+.gap_40 {
+    gap: 40px;
+}
+
+.navitems {
+    list-style: none;
+}
+
+/* ---------------------hero-section------------- */
+.hero_heading {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-72);
+    font-weight: var(--font-weight-sm);
+    line-height: 91.8px;
+    text-align: center;
+    color: var(--color-white);
+    max-width: 1200px;
+}
+
+.color_blue_heading {
+    color: var(--light-blue);
+}
+
+#timer {
+    font-family: var(--ff-Josefin);
+    font-size: var(--font-size-36);
+    font-weight: var(--font-weight-lg);
+    line-height: 45.9px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.remaining_time {
+    font-family: var(--ff-Josefin);
+    font-size: var(--font-size-18);
+    line-height: 22.95px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.Presale_btn {
+    font-family: var(--ff-Josefin);
+    font-size: var(--font-size-24);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    text-align: left;
+    color: var(--color-white);
+    background: var(--gradient);
+    border-radius: 79px;
+    box-shadow: 0px 8px 30px 0px #1BABFE;
+    border: none;
+    padding: 14px 34px;
+}
+
+.join_now {
+    font-family: var(--ff-Josefin);
+    font-size: var(--font-size-24);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    text-align: left;
+    border-radius: 79px;
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    border-radius: 79px;
+    padding: 14px 34px;
+    color: var(--color-white);
+}
+
+.gap_23 {
+    gap: 23px;
+}
+
+.pt_20 {
+    padding-top: 20px;
+}
+
+.pb_22 {
+    padding-bottom: 22px;
+}
+
+.menuicon svg {
+    height: 80px;
+    position: absolute;
+    width: 80px;
+}
+
+/* menuicon */
+.plates {
+    width: 320px;
+}
+
+.plate {
+    height: 80px;
+    width: 80px;
+}
+
+.burger {
+    filter: url(#gooeyness);
+}
+
+.x {
+    transform: scale(0);
+    transition: transform 400ms;
+}
+
+.line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform-origin: 50%;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+}
+
+.x .line {
+    stroke-width: 5.5px;
+}
+
+/* Die vierte teller */
+.plate4 .x {
+    transition: transform 400ms;
+}
+
+.plate4 .line {
+    transform-origin: 50%;
+    transition: transform 400ms 100ms;
+}
+
+.active.plate4 .line {
+    transition: transform 400ms;
+}
+
+.active.plate4 .line1 {
+    transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(.7);
+}
+
+.active.plate4 .line2 {
+    transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(.7);
+}
+
+.active.plate4 .line3 {
+    transform: translateY(0px) rotate(45deg) scale(.7);
+}
+
+.active.plate4 .line4 {
+    transform: translateY(0px) rotate(-45deg) scale(.7);
+}
+
+.active.plate4 .line5 {
+    transform: translateX(18px) translateY(3px) rotate(45deg) scale(.7);
+}
+
+.active.plate4 .line6 {
+    transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(.7);
+}
+
+.active.plate4 .x {
+    transition: transform 400ms 100ms;
+    transform: scale(1);
+}
+
+/* ------------------section2---------------------- */
+.section2 {
+    background-image: url(../images/png/section2_bg_img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec2_heading {
+    font-family: var(--ff-Josefin);
+    font-size: var(--font-size-48);
+    font-weight: var(--font-weight-xl);
+    line-height: 61.2px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.sec2_para {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-sm);
+    line-height: 35.9px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.sec_2_girl_img {
+    max-width: 369px;
+}
+
+.mt_40 {
+    margin-top: 100px;
+}
+@media (max-width:1400px) {
+    .navitems {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: blue;
+        transition: all 300ms linear;
+        z-index: 5;
+    }
+
+    .show {
+        left: 0;
+    }
+
+    .menuicon {
+        z-index: 6;
+    }
+}
