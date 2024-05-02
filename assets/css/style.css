@@ -1452,6 +1452,10 @@
         width: unset !important;
     }
 
+    .py_sm_228 {
+        padding: 228px 0;
+    }
+
     .mb_sm_80 {
         margin-bottom: 80px;
     }
