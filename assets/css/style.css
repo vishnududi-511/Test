@@ -1426,6 +1426,10 @@
         max-width: 376px !important;
     }
 
+    .mt_md_50 {
+        margin-top: 50px !important;
+    }
+
     .hero_heading {
         font-family: var(--ff-poppins);
         font-size: var(--font-size-72) !important;
